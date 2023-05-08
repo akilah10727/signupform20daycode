@@ -1,0 +1,132 @@
+h1{align-items: center;}
+header {
+    color: white;
+    align-items: center;
+  }
+body {
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .input {
+    width: 400px;
+    height: 52px;
+    margin: 20px 0 7px 0;
+    color: hsl(243, 34%, 61%);
+    border: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border: 10px;
+    border-color: hsl(249, 10%, 26%) ;
+  }
+  
+  input::placeholder {
+    color: #8e8aa7;
+    font-weight: 600;
+    padding: 19px;
+  }
+  
+  .heading > h1 {
+    margin: 50px 10px 0px 10px;
+    padding: 9px;
+    font-size: 40px;
+    display: flex;
+    text-align:left;
+}
+  
+  .heading > p {
+    margin: 20px 20px 0 20px;
+    font-size: 16px;
+    float: left;
+    display: flex;
+  }
+  
+  .card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(248, 32%, 49%);
+    margin: 40px 20px 20px 20px ;
+    padding: 0px 60px;
+    color: hsl(246, 25%, 77%);
+    border-radius: 10px;
+    box-shadow: 0px 9px 1px 0px rgb(0 0 0 / 15%);
+  }
+  
+  .card-one > p > span {
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  .card-two {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  .input-submit {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1rem;
+    height: 52px;
+    width: 300px;
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 1px 4px 0px 0px rgb(32, 179, 112);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  
+  .input-submit:hover {
+    cursor: pointer;
+    background-color: #77e2b4;
+    box-shadow: 0px 4px 0px 0px rgba(109,204,162,1);
+  }
+  
+  #terms {
+    font-size: 12px;
+    color: hsl(0, 100%, 74%) 
+    margin: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+  #terms span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+  }
+
+  @media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  
+  .href {font-color:hsl(0, 100%, 74%);}
+  }
